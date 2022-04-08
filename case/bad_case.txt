@@ -1,0 +1,4 @@
+bad case 0: 
+sentence: ['十', '一', '月', '中', '山', '路', '电']
+golden label: ['O', 'O', 'O', 'B-address', 'I-address', 'I-address', 'O']
+model pred: ['O', 'O', 'B-address', 'I-address', 'I-address', 'I-address', 'O']
